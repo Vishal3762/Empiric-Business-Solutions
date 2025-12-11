@@ -363,3 +363,77 @@ body {
         padding: 20px 0;
     }
 }
+
+/* client-review-section */
+
+.testimonials-section {
+    background: #F8F9F7; 
+    padding: 80px 0;
+    position: relative;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+               
+    background: #FFFFFF;
+    border-radius: 30px;       
+    border: 1px solid #9BCD91;  
+    padding:19px 40px 21px;
+    text-align: center;
+    position: relative;
+   margin: 25px;
+  
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid white;
+}
+
+.stars {
+    margin-top: 40px;
+    color: #FFC107;
+    letter-spacing: 3px;
+}
+
+.name {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #555555;
+}
+
+.desc {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #555;
+}
+
+/* Quote Icon */
+.quote-icon {
+  position: absolute;
+    bottom: -64px;
+    left: -17px;
+    color: #9BCD91;
+    font-size: 96px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .testimonial-card {
+        margin-top: 50px;
+    }
+
+    .profile-img {
+        width: 70px;
+        height: 70px;
+        top: -35px;
+    }
+}
