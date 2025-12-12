@@ -134,10 +134,18 @@ body {
     font-size: 32px;
     font-weight: 700;
     color: #2d7a2f;
+    
 }
 
 .crd-title {
     color: #2d7a2f;
+}
+
+.services-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2d7a2f;
+    text-align: center;
 }
 
 .services-subtitle {
@@ -145,6 +153,7 @@ body {
     margin: 0 auto;
     font-size: 15px;
     color: #333;
+    text-align: center;
 }
 
 .service-card {
@@ -759,8 +768,7 @@ textarea {
     }
 
     .grass {
-        width: 60px;
-        top: -20px;
+        display: none;
     }
 }
 
@@ -769,7 +777,7 @@ textarea {
         padding-top: 50px;
     }
 
-    .grass {
-        width: 45px;
+   .grass {
+        display: none;
     }
 }
