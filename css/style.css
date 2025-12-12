@@ -28,15 +28,18 @@ body {
 }
 
 .nav-links a {
-    margin-left: 25px;
+     margin-left: 32px;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
+    align-items: center;
+    margin-top: 15px;
 }
+
 
 .contact-btn {
     background: #FFE156;
-    padding: 8px 18px;
+    padding: 6px 18px;
     border-radius: 6px;
     color: #000 !important;
     font-weight: 600;
